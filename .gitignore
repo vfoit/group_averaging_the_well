@@ -1,0 +1,14 @@
+# Ignore everything in the project root...
+/*
+
+# ...except these
+!/src/
+!/README.md
+!/pyproject.toml
+!/uv.lock
+!/.gitignore
+
+# Still keep junk out of src
+__pycache__/
+*.py[oc]
+.ipynb_checkpoints/
